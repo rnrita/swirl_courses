@@ -1,14 +1,14 @@
 - Class: meta
   Course: R Programming
   Lesson: Functions
-  Author: Sean Kross
+  Author: Aretha Miller
   Type: Standard
   Organization: swirlstats
   Version: 2.2.14
 
 - Class: text
-  Output: Functions are one of the fundamental building blocks of the R language. They are small 
-    pieces of reusable code that can be treated like any other R object.
+  Output: Functions are one of the fundamental building blocks of the R language. 
+  They are small pieces of reusable code that can be treated like any other R object.
 
 - Class: text
   Output: "If you've worked through any other part of this course, you've probably
@@ -19,6 +19,7 @@
   Output: "Let's try using a few basic functions just for fun. The Sys.Date()
     function returns a string representing today's date. Type Sys.Date() below 
       and see what happens."
+
   CorrectAnswer: Sys.Date()
   AnswerTests: omnitest(correctExpr='Sys.Date()')
   Hint: "Display today's date by typing: Sys.Date()"
